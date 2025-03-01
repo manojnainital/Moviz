@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Circle background -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#99000000" /> <!-- Circle background color -->
+            <size
+                android:width="24dp"
+                android:height="24dp" />
+        </shape>
+    </item>
+
+    <!-- Back arrow -->
+    <item
+        android:drawable="@drawable/ic_arrow_back"
+        android:gravity="center" />
+</layer-list>
